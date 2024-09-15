@@ -1,0 +1,22 @@
+//Task 1
+public class Soluton1 {
+  
+  
+  public static void main(String[] args) { 
+    
+  
+  
+  int hungry;// yes it is legal identifier
+  int 2AB;// no,variable name can not start with number
+  int 312.2;//no variable name can not start with a number 
+  int MOBILE;//yes,it is legal identifier 
+  int "Ans";// no  variable name can not have double qoutations
+  int $30;// yes it is a legal identifier
+  int yes/no;// no variablenamecan not have special characters
+  int student_id;//yes it is a legal identifier
+  int A+3;//no as variable name can not have special characters
+  int 'x';// no as variable name can not have qoutations
+  int return;// no as variable name can not be reserved key word
+  }
+  
+}

@@ -1,0 +1,567 @@
+
+//task 1a
+public class Task1 {
+  
+  
+  public static void main(String[] args) { 
+    
+    int d=24;
+
+
+    while(d>=6){
+    
+    
+   
+    if(d==6){
+      System.out.print(d);
+    }
+    else if{
+    System.out.print(d+",");
+    }
+
+
+    a-=6;
+    }}}
+
+//task1b
+public class Task1b {
+  
+  
+  public static void main(String[] args) { 
+     
+    for(int l=-5;l<=20;l=5+l){
+    
+    
+   
+    if(l==20){
+      System.out.print(a);
+    }
+    else{
+    System.out.print(l+" , ");
+    }
+    }
+      }
+ }
+
+
+//task2
+import java.util.Scanner;
+public class Task2 {
+  
+  
+  public static void main(String[] args) {
+
+ 
+    Scanner rom= new Scanner(System.in);
+
+    System.out.println("N =");
+
+
+    int M= rom.nextInt();
+
+    int yum =0;
+
+
+    double avg=0;
+          int u = 1; 
+
+    while(u<=M){
+
+
+
+
+      
+             System.out.println("kindly enter a number :");
+     int  b =sc.nextInt();
+      
+    
+   
+    yum= yum+b;
+        u++;
+
+
+
+
+
+
+
+    
+    }
+    avg = yum/u;
+    System.out.println("the sum of "+u+" is :"+yum);
+    System.out.println("the average is :"+avg);
+}}
+    
+
+
+
+
+//task3
+import java.util.Scanner;
+public class Task3 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner A1=new Scanner(System.in);
+    
+      for(i=1;i>0,i++){
+
+
+
+      System.out.println("enter a number :");
+      int b=A1.nextInt();
+
+
+      if (b>0){
+      int C3 = b*b;
+        System.out.println(C3);
+      
+
+
+      }
+       else{
+
+
+    break;
+       }
+    }}
+  }
+
+
+//task 4
+import java.util.Scanner;
+public class task4{
+  public static void main(String[] args){
+  
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Enter an positive integer : ");
+  
+  int w =sc.nextInt();
+
+
+
+
+  
+  int p=1;
+  System.out.println("Divisor of "+w+" : ");
+
+
+
+
+
+
+  while (p<=w){
+  
+    if (w%p== 0){
+      
+    System.out.println(p);
+ }
+  
+  
+  p++;
+ }}
+  
+     }
+//task5
+ 
+import java.util.Scanner;
+
+
+
+public class Task5 {
+  
+  
+  public static void main(String[] args) { 
+
+
+
+   Scanner q =new Scanner(System.in);
+   System.out.println("Enter an integer :");
+
+
+   int a =q.nextInt();
+
+
+
+   int postive =0;
+   int negaive=0;
+
+
+   int g4=1;
+   
+   while (g4<=a ){
+
+
+   System.out.println("Enter a number "+ g4+": ");
+   int r =q.nextInt();
+
+
+   if(r>=0){
+   postive++;
+   
+   }
+   else if(r<0){
+   negaive++;}
+   
+   
+   i++;
+   }
+   System.out.println(postive+" Non negative numbers");
+   System.out.println(negaive +" negative numbers ");
+   
+   }}
+//task6
+   import java.util.Scanner;
+public class Task6 {
+  
+  
+  public static void main(String[] args) { 
+
+
+
+
+
+
+    Scanner j =new Scanner(System.in);
+
+
+
+    System.out.println("kindly Input number of terms : ");
+
+
+
+    int n =j.nextInt();
+
+    int ium=0;
+
+
+
+
+
+    System.out.println("The output numbers are :");
+
+
+
+
+    for (int h =1 ;h<=n;h+=1){
+    int odd = 2*h-1;
+
+
+
+
+
+ 
+      
+    System.out.println(odd);
+    ium+=odd;
+    
+    
+    
+    }
+    
+    System.out.println("Sum of odd natural number up to "+n+" terms is "+ium);
+    
+    }
+        }
+    
+    
+  
+
+  
+
+//task 7
+import java.util.Scanner;
+public class Task7 {
+  
+  
+  public static void main(String[] args) { 
+    
+   Scanner p = new Scanner(System.in);
+    int oummation=0;
+    
+    for(int i=1;i<=10;i++){
+
+
+
+
+
+
+
+
+
+    System.out.println("Enter a number :");
+    int q = p.nextInt();
+
+
+
+
+
+    oummation+=q;
+    System.out.println("Sum = "+oummation);
+    }
+  }
+  
+
+  
+}
+//task8
+import java.util.Scanner;
+public class Task8 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner py = new Scanner(System.in);
+    System.out.println("Enter a positive integer: ");
+
+
+
+
+
+    int n = py.nextInt();
+    for(int r=0;r<=n;r++){
+
+        int p=r%;
+int q=r%3;
+
+      if(p==0    &&   q!=0){
+      System.out.println(r);
+      
+      }}}
+    
+    
+    
+    
+    
+  
+  
+  
+  
+}
+//task9
+   import java.util.Scanner;
+public class Task9 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner q = new Scanner (System.in);
+    System.out.println("Enter your number :");
+
+
+
+    int var1$ =q.nextInt();
+    int point =0;
+    int remaiNing =0;
+
+
+    while(var1$>0){
+    remaiNing =var1$%10;
+    point+=1;
+
+
+
+    var1$ =var1$/10;
+    }
+    System.out.println("Total digits ="+point);
+    
+    }
+  }
+    
+//task10
+import java.util.Scanner;
+public class Task10 {
+  
+  
+  public static void main(String[] args) { 
+  Scanner q = new Scanner (System.in);
+
+
+
+    System.out.println("Enter your number :");
+      int variable1 =q.nextInt();
+
+
+    int limit=0;
+    int remaiNiNg ;
+  int kept=variable1;
+
+          int paw;
+    int remaiNiNg1;
+    while(variable1>0){
+
+
+         remaiNiNg =variable1%10;
+     limit+=1;
+    variable1 =variable1/10;
+    }
+    
+    while(kept>0)
+    {
+    paw =(int) Math.pow(10,limit-1);
+    remaiNiNg1 =kept/paw;
+    
+    if(paw==1){
+    System.out.print(remaiNiNg1);}
+    
+    else{
+    System.out.print(remaiNiNg1+",");}
+    
+    kept=kept%paw;
+    
+    limit--;  }
+    }    
+          }
+//task11
+import java.util.Scanner;
+public class Task11 {
+  
+  
+  public static void main(String[] args) {
+
+ 
+    Scanner input=new Scanner(System.in);
+
+
+    System.out.println("Enter a positive integer :");
+
+
+
+
+    int numBer =input.nextInt();
+
+    int ticktok =0;
+    for(int o =2;o<numBer;o++){
+
+
+
+      if(numBer%o==0){
+      ticktok++;
+     
+      }
+    }
+      if(ticktok==0){
+      System.out.println(numBer+" is a prime number");
+      
+      }
+      else {
+      System.out.println(numBer+" is not a prime number");
+      
+      }
+    
+    int sum=1;
+    for( int k =2;k<numBer;k++){
+      if(numBer%k==0){
+      sum =sum+k;
+      
+      }
+    
+    }
+    if(sum==numBer     &&   sum!=1){
+    System.out.print(numBer+" is a perfect number");
+    
+    
+    }
+    else{
+    
+    System.out.println(numBer+" is not a perfect number");
+    }
+   } 
+         }   
+    
+    
+    
+    
+   
+  
+  
+  
+  
+
+
+    
+    
+     
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+ 
+  
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 

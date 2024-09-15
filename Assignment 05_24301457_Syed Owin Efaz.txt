@@ -1,0 +1,350 @@
+//task1
+import java.util.Scanner;
+
+public class Task1 {
+
+  public static void main(String[] args) {
+        Scanner dc = new Scanner(System.in);
+        System.out.println("Enter value of N :  ");
+        int N = dc.nextInt();
+
+        int rount = 0;
+        for (int u = 2; rount < N; u++) {
+            int pount = 0;
+            for (int j = 1; j <= u; j++) {
+                if (u % j == 0) {
+                    pount++;
+                }
+            }
+            if (pount == 2) {
+                System.out.println(u);
+                rount++;
+            }}}}
+
+
+
+
+
+
+//task2
+import java.util.Scanner;
+public class Task2 {
+  
+  
+  public static void main(String[] args) { 
+    
+    Scanner dfd =new Scanner(System.in);
+    int N =dfd.nextInt();
+    int sum=0;
+    int y=0;
+    int i=1;
+    while( i<=N){
+    sum=0;
+      for(int j=1;j<=i;j++){
+ 
+      sum+=j;
+      }   
+      y-=sum;
+  i++;    
+    }
+    
+  System.out.println("the value of Y: "+y);  
+    
+  }}
+  
+  
+  
+
+
+
+
+//task3
+import java.util.Scanner;
+public class Task3 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner sc =new Scanner(System.in);
+    
+    while(true){
+      System.out.println("Enter number :  ");
+    int r =sc.nextInt();
+    if(r<0){
+    System.out.println("kindly enter positive number ");
+    
+    }
+    else{
+     int count=0;
+    if(r%2==0){
+    
+    for(int i=1 ; i<=r;i++){
+    
+      if(r%i==0){
+        count++;}
+    
+    
+    }}
+    else{
+    break;
+    }
+   
+      System.out.println(r+"  has  "+ count+"  divisors  ");
+    }}}}
+    
+//task4
+import java.util.Scanner;
+public class Task4 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner scm =new Scanner(System.in);
+    System.out.println("enter the number of test cases :");
+    int N=scm.nextInt();
+
+
+    for (int o=1;o<=N;o++){
+    System.out.println("please enter value of X:   ");
+    int h=scm.nextInt();
+
+
+    System.out.println("please enter the value of Y:  ");
+    int j=scm.nextInt();
+    int tount =1;
+
+    int sump=0;
+
+
+    while (tount<=j){
+
+
+      if (h%2!=0){
+      sump+=h;
+
+
+      tount+=1;
+      }
+
+
+      h++;
+    }
+    System.out.println(sump);
+    }}
+}
+//task5
+import java.util.Scanner;
+public class Task5 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner scj7=new Scanner(System.in);
+
+
+    System.out.println("enter the first value :   ");
+    int cul =scj7.nextInt();
+    
+    
+    System.out.println("enter the second value :  ");
+    
+    int rew =scj7.nextInt();
+    for (int jh= 1;jh<=rew;jh++){
+    int y=1;
+    while (y<=cul){
+    System.out.print(y);
+    y++;
+    }
+    System.out.println();
+    
+    }
+  }
+  
+
+  
+}
+//task 6
+import java.util.Scanner;
+public class Task6 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner duck =new Scanner(System.in);
+     
+    System.out.println("please enter input integer :  ");
+    int yum =duck.nextInt();
+    int k=1;
+    while(k<=yum){
+    
+    int spo=1;
+    while(spo <= yum-k){
+     System.out.print(" ");
+     spo++;
+    }
+    for(int rem =1; rem<=k;rem++){
+    
+    System.out.print (rem);
+    
+    }
+    System.out.println();
+    k++;
+    }} 
+  
+  
+  
+}
+//task 7
+import java.util.Scanner;
+public class Task7 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner fc = new Scanner(System.in);
+    System.out.println("kindly enter a height :  ");
+    int hm =fc.nextInt();
+    for(int rum =1;rum<=hm; rum++){
+    
+      for(int u=1;u<=hm-rum;u++){
+      
+      System.out.print(" ");
+      }
+    int r=1;
+    while(r<=2*rum-1){
+    System.out.print(r);
+    
+    r++;
+    }
+    
+    
+    System.out.println();
+    
+    }}}
+    
+    
+    
+  
+  
+  
+  
+
+//task8    
+  import java.util.Scanner;
+public class Task8 {
+  
+  
+  public static void main(String[] args) { 
+    
+   Scanner qt =new Scanner(System.in);
+   
+   
+   System.out.println("Enter starting value :  ");
+   
+   
+   
+   
+   int op =qt.nextInt();
+   System.out.println("Enter ending value :  ");
+   
+   
+   int ed =qt.nextInt();
+   
+   for (int b = op; b<=ed;b++){
+   int h =b;
+   
+   
+   
+   int kj=0;
+   int count=0;
+   
+   while (h>0){
+   
+   kj =h%10;
+   
+   count++;
+   h=h/10;
+   
+   
+   
+   }
+   int sum=0;
+   int k=b;
+   int yum=0;
+   for (int p=0; k!=0;k/=10){
+   yum= k%10;
+   sum+=Math.pow(yum,count);
+     
+     
+   }
+   
+  
+    
+   
+   
+   if (sum==b){
+     
+     
+     
+     
+   
+     System.out.println(b);}
+   
+   
+   
+   
+   
+   
+   
+   
+   }
+   
+   
+   
+   
+   
+   }
+   
+   
+ }
+   
+   
+   
+   
+    
+    
+    
+    
+    
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+ 
+  
+
+
+      
+
+
+                     
+                           
+                           
+                             
+        
+        
+    
+
