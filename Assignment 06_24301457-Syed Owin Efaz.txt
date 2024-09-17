@@ -1,0 +1,487 @@
+//task1
+import java.util.Scanner;
+public class lab6Task1 {
+  
+  
+  public static void main(String[] args) { 
+   Scanner scf =new Scanner(System.in);
+   
+   System.out.println("enter a input string :   ");
+   
+   
+   String lk =scf.nextLine();
+   String jk ="";
+   
+   
+   
+   for(int yy =0; yy< lk.length(); yy++){
+   char om =lk.charAt(yy);
+   int r =(int)om;
+   
+   if (r>=65&&r<=90){
+   jk+=om;
+   
+   
+   }
+   else if (r>=97&&r<=122){
+   int h =r-32;
+   
+   
+   char m =(char)h;
+   jk+=m;
+   
+   
+   
+   }
+   else {
+   jk+=om;
+   
+   }}
+System.out.print(jk);
+}}
+
+
+   //task2  
+ import java.util.Scanner;
+public class lab6Task2 {
+  
+  
+  public static void main(String[] args) { 
+   Scanner opta = new Scanner(System.in);
+   System.out.println("Enter the input string : ");
+   String fg = opta.nextLine();
+   String rew ="";
+   int o=fg.length()-1;
+   while(o>=0){
+   char omega =fg.charAt(o);
+   rew=rew+omega;
+   
+   o--;
+   }
+    
+   System.out.print(fg.equals(rew)); 
+    
+    
+    
+  }
+  
+  
+  
+}
+ 
+//task3
+import java.util.Scanner;
+public class lab6task3 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner dfd = new Scanner (System.in);
+    System.out.println("Enter a String  :  ");
+    String h = dfd.nextLine();
+    System.out.println("Enter a spilting character :  ");
+      String g = dfd.nextLine();
+      int rizzler =g.codePointAt(g.length()-1);
+    int i =0;
+    while(i<=h.length()-1){
+    int cg =h.codePointAt(i);
+    if( cg==rizzler){
+    System.out.println();
+    
+    }
+    else{
+    
+    System.out.print((char)cg);
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    i++;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+  }
+  
+  
+  
+}
+
+//task4
+import java.util.Scanner;
+public class lab6task4 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner scd = new Scanner (System.in);
+    String hm = scd.nextLine();
+    String rizzler =" ";
+    for (int jg = hm.length()-1; jg>=0;jg--){
+      
+      char Arg = hm.charAt(jg);
+      
+    
+      System.out.print(Arg);
+      
+    }
+       
+    
+  }
+  
+ 
+  
+}
+ 
+//task5
+import java.util.Scanner;
+public class Lab6task5 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner sec = new Scanner(System.in);
+    System.out.println("Enter the input string :  ");
+    String qp = sec.nextLine();
+    int volco =0;
+    int coco=0;
+   
+    for (int y=0;y>=qp.length()-1;y++){
+    char purple =qp.charAt(y);
+    int r =(int)purple;
+    if(r==65||r==69||r==73||r==79||r==65||r==97||r==101||r==105||r==111||r==117){
+    volco+=1;
+     
+    
+    }
+    
+    else if ((r >= 65 && r <= 90) || (r >= 97 && r <= 122)){
+      coco++;}}
+    
+    if(volco%3==0&&coco%5==0&&volco>0&&coco>0){
+    System.out.println("Aaarr! Me Plunder!!");
+    
+    }
+    else{
+    System.out.println("Blimey! No Plunder!!");
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  }
+  
+ 
+  
+}
+//task6
+  import java.util.Scanner;
+
+public class Lab6tsk6 {
+    public static void main(String[] args) {
+
+
+
+Scanner alpha = new Scanner(System.in);
+
+
+
+System.out.println("Enter an input string value: ");
+    String ohio = alpha.nextLine();
+
+
+
+        String rev = "";
+        
+        
+        
+        String cuw = "";
+        
+        
+
+        for (int u = ohio.length() - 1; u >= 0; u--) {
+            char ujh = ohio.charAt(u);
+
+
+
+            if (ujh != ' ') {
+
+
+                cuw = ujh + cuw; }
+
+
+
+             else {
+                rev = rev + cuw+ " "; 
+
+
+                cuw = ""; 
+            }}
+        
+        
+        rev= rev + cuw;
+
+        System.out.println(rev); 
+        
+    }}
+
+//task7
+ import java.util.Scanner;
+public class Lab6task7 {
+  
+  
+  public static void main(String[] args) { 
+  Scanner sc = new Scanner (System.in);
+  System.out.println("Enter the first input string :  ");
+  String gg = sc.nextLine();
+  System.out.println("Enter the second input string : ");
+   String hh = sc.nextLine(); 
+   
+   String iq="";
+   boolean o =false;
+   int i=0;
+   while(i<=gg.length()-1){
+   int c =(int)(gg.charAt(i));
+   for (int t =0;t<=hh.length()-1;t++){
+     int hm =(int)(hh.charAt(t));
+     if(c==hm){
+     o =true;
+     
+     }}
+     if(o==false){
+     iq+=gg.charAt(i);
+     
+     
+     
+     }
+     o=false;
+   
+   
+   
+   
+   
+   
+   
+   i++;
+   }
+    
+    
+    boolean p =false;
+   
+   for(int u=0;u<=hh.length()-1;u++){
+   int c =(int)(hh.charAt(u));
+   
+   for (int z =0;z<=gg.length()-1;z++){
+     int oyr =(int)(gg.charAt(z));
+     if(c==oyr){
+     p =true;
+     
+     }}
+     if(p==false){
+     iq+=hh.charAt(u);
+     
+     
+     
+     }
+     p=false;
+   
+   
+    }
+   String oi ="";
+   for(int mm =0; mm< iq.length(); mm++){
+   char om =iq.charAt(mm);
+   int r =(int)om;
+   
+   if (r>=65&&r<=90){
+   oi+=om;
+   
+   
+   }
+   else if (r>=97&&r<=122){
+   int h =r-32;
+   
+   
+   char m =(char)h;
+   oi+=m;
+    }
+   else {
+   oi+=om;
+   
+   }}
+   System.out.print(oi);}}
+
+  //task8 
+import java.util.Scanner;
+
+public class lab6tusk8 {
+    public static void main(String[] args) {
+      
+      
+      
+        Scanner ok = new Scanner(System.in);
+        
+        
+        
+        System.out.println("kindly Enter an  input sentence: ");
+        
+        
+        
+        String inpot = ok.nextLine();
+        
+        String rest = "";
+        
+        
+        
+        boolean fart = true;
+        
+        for (int i = 0; i < inpot.length(); i++) {
+          
+          
+          
+            char ph = inpot.charAt(i);
+            
+            if (ph >= 'a' && ph <= 'z' || ph >= 'A' && ph <= 'Z') {
+        if (fart) {
+               if (ph >= 'A' && ph <= 'Z') {
+                 
+                 
+                 
+                 
+                        ph = (char) (ph + 'a' - 'A'); 
+               }}
+                 else {
+                   
+                   
+                   
+                   
+           if (ph >= 'a' && ph <= 'z') {
+             
+             
+             
+                        ph = (char) (ph - ('a' - 'A')); 
+           }}
+                
+                 
+                 
+                 
+                fart = !fart;
+            }
+            
+            
+            
+            rest += ph;
+        }
+        
+        
+        
+        
+        System.out.println(rest);
+    }
+}
+ 
+    
+  //task9
+import java.util.Scanner;
+public class Lab6task9 {
+  
+  
+  public static void main(String[] args) { 
+   Scanner df =new Scanner(System.in);
+   System.out.println("Enter a new string:  ");
+   String gh=df.nextLine();
+   int count=0;
+   int paint=0;
+   int i=0;
+   boolean o=false;
+   boolean q=false;
+   boolean m=false;
+   boolean n=false;
+   
+   
+   
+   
+   while(i<=gh.length()-1){
+   count+=1;
+   i++;
+   }
+   for (int y =0; y<=gh.length()-1;y+=1){
+   
+   char A =gh.charAt(y);
+   int p =(int)A;
+   
+   if(p>=97&&p<=122){o=true;}
+   if(p>=65&&p<=90){q=true;}
+   if(p>=48&&p<=57){m=true;}
+   if(p>=33&&p<=47){n=true;}
+   }
+   
+   if(o&&q&&m&&n&&count>=8){
+   System.out.print("True");
+   
+   
+   } 
+   else{
+   System.out.print("False");}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+  }
+  
+  
+  
+}
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+
+    
+     
+                      
+   
+   
+
+    
+  
