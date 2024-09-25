@@ -1,16 +1,25 @@
 //lab7task1
 import java.util.Scanner;
 public class Lab7task1 {
+
+
+
   
   
   public static void main(String[] args) { 
     Scanner l =new Scanner(System.in);
     System.out.println("Enter the length of the array :  ");
     int N = l.nextInt();
+
+
+
     int r=N-1;
     int[] taw =new int[N];
     for (int i =0;i<=r;i++){
     System.out.println("Enter a number :  ");
+
+
+
     taw[i]=l.nextInt();
    }
     System.out.println("Enter another number: ");
@@ -59,6 +68,8 @@ public class Lab7task2 {
 
 
       for(int yp=il+1;yp<=popu.length-1;yp++){
+
+
         if(popu[il]==popu[yp]){
           popu[yp]=0;
        
@@ -73,6 +84,8 @@ public class Lab7task2 {
       
      System.out.print("\n"); 
     System.out.println("After replacing duplicates with 0 :");
+
+
     for(int u =0;u<=popu.length-1;u++){
     
       System.out.print(popu[u]);
@@ -157,6 +170,8 @@ public class Lab7Task3
 //task4
 import java.util.Scanner;
 public class lab7task4{
+
+
   public static void main (String[] args){
   
   Scanner t= new Scanner(System.in);
@@ -230,7 +245,11 @@ public class Lab7task5 {
      
      
      }}
+
+
    if(tag){
+
+
    System.out.println(e+" is at index "+rum);
    
    }
@@ -263,11 +282,17 @@ public class Lab7task6 {
   
   public static void main(String[] args) { 
    Scanner y=new Scanner(System.in);
+
+
    System.out.println("Enter the length of an array :  ");
    int N =y.nextInt();
    double [] m =new double [N];
+
+
    for(int p =0;p<N;p++){
    System.out.println("Enter a number : ");
+
+
    m[p] =y.nextDouble();
    
    
@@ -358,7 +383,7 @@ public class number7task {
  //lab7task8
 import java.util.Scanner;
 
-public class Lab200task8 {
+public class Lab7task8 {
   
   public static void main(String[] args) { 
     Scanner sd = new Scanner(System.in);
@@ -376,6 +401,7 @@ public class Lab200task8 {
     
     System.out.println("Please enter the elements of array 1: ");
     for(int y = 0; y < u; y++) {
+
       p[y] = sd.nextInt();
     }
     
@@ -385,8 +411,8 @@ public class Lab200task8 {
     int[] q = new int[i]; 
     
     System.out.println("Please enter the elements of array 2: ");
-    for(int y = 0; y < i; y++) {
-      q[y] = sd.nextInt();
+    for(int kj = 0; kj < i; kj++) {
+      q[kj] = sd.nextInt();
     }
     
    
